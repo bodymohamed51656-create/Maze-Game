@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { io } from 'socket.io-client';
 import { Canvas } from '@react-three/fiber';
 import { PerspectiveCamera, OrbitControls } from '@react-three/drei';
-import Maze from './components/Maze';
+import Maze from './Components/Maze';
 import RunnerPlayer from './Components/RunnerPlayer';
 import RunnerHUD from  "./Components/Runner_HUD";
 import PlayerModel from './Components/PlayerModel';
